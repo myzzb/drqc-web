@@ -86,8 +86,8 @@ button:focus {
 }
 
 .p_120 {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  /*padding-top: 120px;*/
+  /*padding-bottom: 120px;*/
 }
 
 .pad_top {
@@ -4037,14 +4037,20 @@ h6 {
 }
 
 .footer-bottom {
-  padding-top: 85px;
+  padding: 15px;
 }
 
 .footer-bottom .footer-text {
   color: #fff;
   opacity: .6;
+  text-align: center;
 }
 
+.record{
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+}
 .footer-bottom .footer-text i {
   color: #6247ea;
   opacity: 1;
@@ -4085,5 +4091,55 @@ h6 {
 }
 
 /*---------------------------------------------------- */
+/*============ Start About Single Styles  =============*/
+.top{
+  text-align: center;
+  padding: 20px 0;
+}
+.top h1{
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-size: 30px;
+  line-height: 30px;
+  color: red;
+}
+.center{
+  display: flex;
+  justify-content: center;
+  height: 634px;
+}
+.c-img{
+  width: 410px;
+  height: 340px;
+  padding: 0 20px 0 0;
+  vertical-align: middle
+}
+.c-one{
+  height: 100%;
+  width: 50%;
+  text-align:center;
+}
+span {
+  display:inline-block;
+  height:100%;
+  vertical-align: middle;
+}
+.c-two{
+  width: 50%;
+  /*flex 布局*/
+  display: flex;
+  /*实现垂直居中*/
+  align-items: center;
+  /*实现水平居中*/
+  justify-content: center;
+}
+.center p{
+  font-family: "微软雅黑", "黑体";
+  font-size: 16px;
+  line-height: 36px;
+  color: red;//#333;
+  text-indent: 2em;
+}
+/*============ End About Single Styles  =============*/
 
 /*# sourceMappingURL=style.css.map */
