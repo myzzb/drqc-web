@@ -180,7 +180,7 @@ button:focus {
 .header_area .navbar .nav .nav-item .nav-link {
   font: 600 12px/100px "Open Sans", sans-serif;
   text-transform: uppercase;
-  color: #fff;
+  color: #7ab0f1;
   padding: 0px;
   display: inline-block;
 }
@@ -268,10 +268,10 @@ button:focus {
 }
 
 .header_area .navbar .nav .nav-item.submenu ul .nav-item:hover .nav-link {
-  background-image: -moz-linear-gradient(0deg, #bc2bff 0%, #7249fb 100%);
-  background-image: -webkit-linear-gradient(0deg, #bc2bff 0%, #7249fb 100%);
-  background-image: -ms-linear-gradient(0deg, #bc2bff 0%, #7249fb 100%);
-  color: #fff;
+  background-image: -moz-linear-gradient(0deg, #fff6f6 0%, #fbf6f6 100%);
+  background-image: -webkit-linear-gradient(0deg, #eaf4ff 0%, #fbf9f4 100%);
+  background-image: -ms-linear-gradient(0deg, #eef6ff 0%, #fbf4ea 100%);
+  color: black;
 }
 
 @media (min-width: 992px) {
@@ -308,9 +308,9 @@ button:focus {
   top: -70px;
   left: 0;
   right: 0;
-  background-image: -moz-linear-gradient(0deg, #bc2bff 0%, #7249fb 100%);
-  background-image: -webkit-linear-gradient(0deg, #bc2bff 0%, #7249fb 100%);
-  background-image: -ms-linear-gradient(0deg, #bc2bff 0%, #7249fb 100%);
+  background-image: -moz-linear-gradient(0deg, #f2fff3 0%, #d6fbf8 100%);
+  background-image: -webkit-linear-gradient(0deg, #fff6f9 0%, #fbf1f1 100%);
+  background-image: -ms-linear-gradient(0deg, #eafffd 0%, #f4f9fb 100%);
   -webkit-transform: translateY(70px);
   -ms-transform: translateY(70px);
   transform: translateY(70px);
@@ -335,7 +335,7 @@ button:focus {
 .top_menu .float-left a {
   line-height: 40px;
   display: inline-block;
-  color: #fff;
+  color: black;
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   font-size: 12px;
@@ -355,7 +355,7 @@ button:focus {
 
 .top_menu .float-right .pur_btn {
   background: #6247ea;
-  color: #fff;
+  color: black;
   font-family: "Roboto", sans-serif;
   line-height: 40px;
   display: block;
@@ -370,7 +370,7 @@ button:focus {
 ============================================================================================ */
 .home_banner_area {
   z-index: 1;
-  background: url(../img/banner/home-banner.jpg) no-repeat scroll center center;
+  background: url(../img/common/banner-1.jpeg) no-repeat scroll center center;
   background-size: cover;
 }
 
@@ -381,7 +381,8 @@ button:focus {
 }
 
 .home_banner_area .banner_inner .banner_content {
-  color: #fff;
+  color: black;
+  height: 500px;
 }
 
 .home_banner_area .banner_inner .banner_content .col-lg-9 {
@@ -491,7 +492,7 @@ button:focus {
 }
 
 .banner_area .banner_inner .banner_content h2 {
-  color: #fff;
+  color: black;
   font-size: 48px;
   font-family: "Roboto", sans-serif;
   margin-bottom: 0px;
@@ -500,7 +501,7 @@ button:focus {
 
 .banner_area .banner_inner .banner_content .page_link a {
   font-size: 14px;
-  color: #fff;
+  color: black;
   font-family: "Roboto", sans-serif;
   margin-right: 32px;
   position: relative;
@@ -4132,11 +4133,8 @@ span {
   vertical-align: middle;
 }
 .c-two{
-  width: 50%;
   /*flex 布局*/
   display: flex;
-  /*实现垂直居中*/
-  align-items: center;
   /*实现水平居中*/
   justify-content: center;
 }
@@ -4149,4 +4147,25 @@ span {
 }
 /*============ End About Single Styles  =============*/
 
+.contact-two{
+  /*flex 布局*/
+  /*display: flex;*/
+  /*实现水平居中*/
+  /*justify-content: space-around;*/
+  padding-bottom: 90px;
+}
+.contact-two li {
+  padding: 0 15px;
+  font-size: 16px;
+  color: #888;
+  list-style: none;
+  text-align: center;
+  display: inline-block;
+}
+.contact-two li img{
+  vertical-align: middle;
+}
+.contact-two li p{
+  margin: 40px 0 10px 0;
+}
 /*# sourceMappingURL=style.css.map */
