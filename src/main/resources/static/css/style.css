@@ -370,7 +370,7 @@ button:focus {
 ============================================================================================ */
 .home_banner_area {
   z-index: 1;
-  background: url(../img/common/banner-1.jpeg) no-repeat scroll center center;
+  background: url(../img/common/b-001.jpg) no-repeat scroll center center;
   background-size: cover;
 }
 
@@ -4117,8 +4117,8 @@ h6 {
   height: 634px;
 }
 .c-img{
-  width: 410px;
-  height: 340px;
+  width: 665px;
+  height: 634px;
   padding: 0 20px 0 0;
   vertical-align: middle
 }
