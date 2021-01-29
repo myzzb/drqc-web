@@ -268,9 +268,9 @@ button:focus {
 }
 
 .header_area .navbar .nav .nav-item.submenu ul .nav-item:hover .nav-link {
-  background-image: -moz-linear-gradient(0deg, #fff6f6 0%, #fbf6f6 100%);
-  background-image: -webkit-linear-gradient(0deg, #eaf4ff 0%, #fbf9f4 100%);
-  background-image: -ms-linear-gradient(0deg, #eef6ff 0%, #fbf4ea 100%);
+  background-image: -moz-linear-gradient(0deg, #ff626e 0%, #fb3b3e 100%);
+  background-image: -webkit-linear-gradient(0deg, #ff4271 0%, #fb6964 100%);
+  background-image: -ms-linear-gradient(0deg, #ff5a71 0%, #fb435c 100%);
   color: black;
 }
 
@@ -308,9 +308,9 @@ button:focus {
   top: -70px;
   left: 0;
   right: 0;
-  background-image: -moz-linear-gradient(0deg, #f2fff3 0%, #d6fbf8 100%);
-  background-image: -webkit-linear-gradient(0deg, #fff6f9 0%, #fbf1f1 100%);
-  background-image: -ms-linear-gradient(0deg, #eafffd 0%, #f4f9fb 100%);
+  background-image: -moz-linear-gradient(0deg, #f9fffb 0%, #f3fbe8 100%);
+  background-image: -webkit-linear-gradient(0deg, #f5fff8 0%, #fbfbf7 100%);
+  background-image: -ms-linear-gradient(0deg, #eafffd 0%, #f4fbf5 100%);
   -webkit-transform: translateY(70px);
   -ms-transform: translateY(70px);
   transform: translateY(70px);
@@ -4114,7 +4114,7 @@ h6 {
 .center{
   display: flex;
   justify-content: center;
-  height: 634px;
+  margin-bottom: 40px;
 }
 .c-img{
   width: 665px;
@@ -4137,16 +4137,20 @@ span {
   display: flex;
   /*实现水平居中*/
   justify-content: center;
+  padding-left: 40px;
 }
 .center p{
   font-family: "微软雅黑", "黑体";
-  font-size: 16px;
-  line-height: 36px;
+  font-size: 22px;
+  line-height: 46px;
   color: red;//#333;
   text-indent: 2em;
 }
 /*============ End About Single Styles  =============*/
-
+.v-i-img{
+  height: 300px;
+  width: 100%;
+}
 .contact-two{
   /*flex 布局*/
   /*display: flex;*/
