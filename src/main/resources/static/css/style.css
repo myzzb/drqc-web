@@ -65,6 +65,9 @@ a:hover, a:focus {
 .row.m0 {
   margin: 0px;
 }
+.row {
+  margin: 0px;
+}
 
 body {
   line-height: 24px;
@@ -371,7 +374,8 @@ button:focus {
 .home_banner_area {
   z-index: 1;
   background: url(../img/common/b-001.jpg) no-repeat scroll center center;
-  background-size: cover;
+  /*background-size: cover;*/
+  background-size:100% 100%;
 }
 
 .home_banner_area .banner_inner {
@@ -4117,10 +4121,14 @@ h6 {
   margin-bottom: 40px;
 }
 .c-img{
-  width: 665px;
+  width: auto;
   height: 634px;
-  padding: 0 20px 0 0;
-  vertical-align: middle
+  vertical-align: middle;
+  max-width: 100%;
+}
+.r_a {
+  margin-bottom: 40px;
+  padding: 0 10px;
 }
 .c-one{
   height: 100%;
@@ -4139,7 +4147,7 @@ span {
   justify-content: center;
   padding-left: 40px;
 }
-.center p{
+.p_txt{
   font-family: "微软雅黑", "黑体";
   font-size: 22px;
   line-height: 46px;
