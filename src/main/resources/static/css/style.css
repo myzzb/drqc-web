@@ -386,7 +386,7 @@ button:focus {
 
 .home_banner_area .banner_inner .banner_content {
   color: black;
-  height: 500px;
+  /*height: 500px;*/
 }
 
 .home_banner_area .banner_inner .banner_content .col-lg-9 {
